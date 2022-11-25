@@ -13,4 +13,38 @@ body {
 .footer {
     display: flex;
     flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.blue-box,
+.blue-box-button,
+.bottom-header-button {
+    background-color: #3882F6;
+}
+
+/*attempt at distributing boxes based on intended results
+.top-header,
+.footer {
+    height: 5vh;
+}
+
+.header,
+.info-section,
+.quote-section, {
+    height: 25vh;
+}
+
+.signup-section {
+    height: 20vh;
+}*/
