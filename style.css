@@ -33,6 +33,46 @@ body {
     background-color: #3882F6;
 }
 
+.bottom-header-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.bottom-header-secondary-text,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.info-title,
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.info-title {
+    font-weight: 900;
+}
+
+.quote-text {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.topleft-header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 /*attempt at distributing boxes based on intended results
 .top-header,
 .footer {
