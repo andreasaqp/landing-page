@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -29,10 +29,6 @@ body {
 .header,
 .footer {
     background-color: #1F2937;
-}
-
-.footer {
-    height: 72px;
 }
 
 .quote-section {
@@ -73,9 +69,14 @@ a {
     font-style: italic;
 }
 
+.quote-citation {
+    font-weight: 700;
+}
+
 .topleft-header {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 700;
 }
 
 ul {
@@ -91,8 +92,9 @@ a {
 }
 
 .top-header {
-    height: 36px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .bottom-header {
@@ -117,6 +119,7 @@ a {
     border-width: 3px;
     border-radius: 10%;
     border-color: #3882F6;
+    margin-bottom: 5px;
 }
 
 .info-section-container {
