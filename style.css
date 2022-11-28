@@ -29,9 +29,21 @@ body {
     width: 100%;
 }
 
+.header, 
+.info-section,
+.quote-section,
+.signup-section {
+    margin-bottom: 3%;
+}
+
 .header,
 .footer {
     background-color: #1F2937;
+}
+
+.top-header,
+.bottom-header {
+    margin-bottom: 5%;
 }
 
 .bottom-header-main-text {
@@ -70,7 +82,8 @@ a {
     justify-content: space-between;
     width: 80%;
     padding: 5px;
-    margin-bottom: 60px;
+    margin-bottom: 5%;
+    margin-top: 0.3%;
 }
 
 .bottom-header {
@@ -109,12 +122,12 @@ a {
     padding: 6px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     margin: 4px 2px;
     width: 100px;
     font-weight: 700;
     border-radius: 6px;
     border-color: #3882F6;
+    font-size: 16px;
 }
 
 .info-title,
@@ -203,7 +216,5 @@ a {
 
 .footer {
     color: #F9FAF8;
-    height: 60px;
+    padding: 2%;
 }
-
-/* Just need to fix height of containers so they aren't squished in 100% zoom. Min-height/max-height? */
