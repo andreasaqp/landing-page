@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .header,
@@ -24,6 +25,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    width: 100%;
 }
 
 .header,
@@ -54,7 +56,7 @@ ul {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 16px;
+    gap: 32px;
 }
 
 a {
@@ -65,10 +67,20 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 60px;
 }
 
 .bottom-header {
     display: flex;
+    width: 80%;
+    gap: 40px;
+}
+
+.bottom-header-text,
+.bottom-header-image {
+    width: 50%;
 }
 
 .bottom-header-text {
@@ -79,15 +91,36 @@ a {
 .bottom-header-image {
     color: white;
     background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box-button,
+.bottom-header-button {
+    background-color: #3882F6;
+    border-style: solid;
+    color: white;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    width: 100px;
+    font-weight: 700;
+    border-radius: 6px;
+    border-color: #3882F6;
+}
+
+.blue-box-button {
+    border-color: white;
 }
 
 .quote-section {
     background-color: #E5E7EB;
 }
 
-.blue-box,
-.blue-box-button,
-.bottom-header-button {
+.blue-box {
     background-color: #3882F6;
 }
 
