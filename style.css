@@ -41,11 +41,6 @@ body {
     background-color: #1F2937;
 }
 
-.top-header,
-.bottom-header {
-    margin-bottom: 5%;
-}
-
 .bottom-header-main-text {
     font-size: 48px;
     font-weight: 900;
@@ -82,14 +77,23 @@ a {
     justify-content: space-between;
     width: 80%;
     padding: 5px;
-    margin-bottom: 5%;
-    margin-top: 0.3%;
+    position: fixed;
+}
+
+.top-header-background {
+    width: 100%;
+    padding: 5px;
+    background-color: #1F2937;
+    position: fixed;
+    height: 28px;
 }
 
 .bottom-header {
     display: flex;
     width: 80%;
     gap: 40px;
+    margin-bottom: 5%;
+    margin-top: 7%;
 }
 
 .bottom-header-text,
@@ -218,3 +222,5 @@ a {
     color: #F9FAF8;
     padding: 2%;
 }
+
+/* ADD POSITION: FIXED TO TOP HEADER AND REPLACE PICTURES? */
