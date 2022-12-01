@@ -112,7 +112,7 @@ a {
 }
 
 .bottom-header-image {
-    max-height: 20vh;
+    max-height: 200px;
     object-fit: cover;
 }
 
@@ -152,6 +152,7 @@ a {
     border-radius: 10%;
     border-color: #3882F6;
     margin-bottom: 5px;
+    object-fit: fill;
 }
 
 .info-section-container {
@@ -220,5 +221,3 @@ a {
     color: #F9FAF8;
     padding: 2%;
 }
-
-/* ADD POSITION: FIXED TO TOP HEADER AND REPLACE PICTURES? */
