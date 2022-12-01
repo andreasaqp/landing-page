@@ -105,6 +105,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 15px;
 }
 
 .bottom-header-secondary-text {
@@ -112,7 +113,7 @@ a {
 }
 
 .bottom-header-image {
-    max-height: 200px;
+    max-height: 300px;
     object-fit: cover;
 }
 
